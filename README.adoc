@@ -13,7 +13,9 @@ ifdef::env-github[]
 endif::[]
 :imagesdir: ./_include/_images/
 
-= Satellite 6 Workshop
+= Satellite 6.3 Workshop
+
+NOTE: This is a fork (extraction) of the SAT-Workshop when it was know to work with Red Hat Satellite 6.3.  The purpose of preserving this is primarily for me to be able to practice and demonstrate upgrade paths.
 
 Foundational exercises to introduce core concepts of Red Hat Satellite Server
 

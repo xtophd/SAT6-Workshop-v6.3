@@ -42,7 +42,7 @@ case "$1" in
         ;;
 
     *)
-        echo "USAGE: prepare-sat6-workshop.sh [ all | repos | prepwork ]"
+        echo "USAGE: prepare-sat6-workshop.sh [ all | repos | prepwork | install | postinstall ]"
         ;;
 
 esac         

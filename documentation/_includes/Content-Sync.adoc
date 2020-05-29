@@ -141,6 +141,22 @@ hammer product synchronize \
 --async
 ----
 
+== Synchonization Status
+
+You can inspect the synchronization status with following command.  Unfortunately you need a really wide terminal for easy viewing, but the information is there.
+
+.[root@satellite ~]$ 
+----
+hammer product list --enabled true --organization ExampleCom
+----
+
+----
+----|---------------------------------|-------------|--------------|--------------|-----------
+ID  | NAME                            | DESCRIPTION | ORGANIZATION | REPOSITORIES | SYNC STATE
+----|---------------------------------|-------------|--------------|--------------|-----------
+122 | Red Hat Enterprise Linux Server |             | ExampleCom   | 4            | Running  
+----|---------------------------------|-------------|--------------|--------------|-----------
+----
 
 [discrete]
 == End of Unit

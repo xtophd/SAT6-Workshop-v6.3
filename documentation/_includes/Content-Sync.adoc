@@ -125,8 +125,17 @@ hammer repository update \
 hammer repository update \
 --organization "ExampleCom" \
 --product "Red Hat Enterprise Linux Server" \
---name "Red Hat Satellite Tools 6.4 for RHEL 7 Server RPMs x86_64" \
+--name "Red Hat Satellite Tools 6.3 for RHEL 7 Server RPMs x86_64" \
 --download-policy immediate
+----
+
+== View Current Enabled Repositories
+
+Before starting the synchronization process, it might be wise to do a quick sanity check.
+
+.[root@satellite ~]$ 
+----
+hammer repository list --organization "ExampleCom"
 ----
 
 == Synchronize Repos

@@ -82,7 +82,7 @@
           lvcreate -y -L {{ item.size }}GB  -n {{ item.lv }} "{{ item.vg }}"
       with_items:
         - {vg: "{{ myVG }}", lv: 'mongodb', size: '50'}
-        - {vg: "{{ myVG }}", lv: 'pulp',    size: '100'}
+        - {vg: "{{ myVG }}", lv: 'pulp',    size: '150'}
         - {vg: "{{ myVG }}", lv: 'pgsql',   size: '5'}
         - {vg: "{{ myVG }}", lv: 'squid',   size: '5'}
         - {vg: "{{ myVG }}", lv: 'cache',   size: '20'}
